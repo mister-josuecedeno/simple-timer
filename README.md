@@ -2,7 +2,7 @@
 
 Live: https://mister-josuecedeno.github.io/simple-timer/
 
-![Large GIF (246x324)](https://user-images.githubusercontent.com/47830532/106306970-605d3d00-6224-11eb-957a-b7f43be7543b.gif)
+![Large GIF (246x324)](https://user-images.githubusercontent.com/47830532/106308257-107f7580-6226-11eb-8a5d-f6499c6cc905.gif)
 
 ## Objective
 

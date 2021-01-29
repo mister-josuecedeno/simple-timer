@@ -70,7 +70,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 20%;
-  /* justify-content: center; */
 }
 
 .display__end-time {
@@ -95,5 +94,4 @@ body {
 input {
   background: whitesmoke;
   font-size: 1.75em;
-  width: max-content;
 }

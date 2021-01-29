@@ -1,26 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #8E24AA;
-  background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+  background: #8e24aa;
+  background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Inconsolata', monospace;
-}
-
-.display__time-left {
-  font-weight: 100;
-  font-size: 20rem;
-  margin: 0;
-  color: white;
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.05);
+  font-family: 'Roboto Mono', monospace;
 }
 
 .timer {
@@ -55,16 +51,16 @@ body {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  background: rgba(0,0,0,0.1);
-  border-bottom: 3px solid rgba(0,0,0,0.2);
-  border-right: 1px solid rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   font-family: 'Inconsolata', monospace;
 }
 
 .timer__button:hover,
 .timer__button:focus {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   outline: 0;
 }
 
@@ -73,10 +69,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 20%;
+  /* justify-content: center; */
 }
 
 .display__end-time {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
+}
+
+.display__group {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.display__time-left {
+  font-weight: 100;
+  font-size: 12rem;
+  margin: 0;
+  color: white;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+input {
+  background: whitesmoke;
+  font-size: 1.75em;
 }

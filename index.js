@@ -39,7 +39,7 @@ function displayEndTime(timestamp) {
   const adjHour = hour > 12 ? hour - 12 : hour;
   const minutes = end.getMinutes();
   const adjMinutes = minutes < 10 ? '0' + minutes : minutes;
-  endTime.textContent = `Be back at ${adjHour}:${adjMinutes}`;
+  endTime.textContent = `End time ${adjHour}:${adjMinutes}`;
 }
 
 function startTimer() {

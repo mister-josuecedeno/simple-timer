@@ -3,8 +3,9 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #8e24aa;
-  background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
+
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
 }
 
 *,
@@ -35,7 +36,7 @@ body {
 
 .timer__controls form {
   flex: 1;
-  display: flex;
+  /* display: flex; */
 }
 
 .timer__controls input {
@@ -51,7 +52,7 @@ body {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.1);
+  /* background: rgba(0, 0, 0, 0.1); */
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
@@ -60,7 +61,7 @@ body {
 
 .timer__button:hover,
 .timer__button:focus {
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
   outline: 0;
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 .display__group {
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
   border-radius: 10px;
   padding: 2em;
 }
@@ -94,4 +95,14 @@ body {
 input {
   background: whitesmoke;
   font-size: 1.75em;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+form {
+  display: none;
+  visibility: hidden;
 }
